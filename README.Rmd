@@ -8,12 +8,13 @@ Biology publication]
 see the 
 [Releases page](https://github.com/kdkorthauer/scDD/releases)).
 
-Until it appears in Bioconductor, you can install through GitHub:
+Until it appears in Bioconductor, you can install this version through GitHub:
 
 ```R
 install.packages("devtools")
 
-devtools::install_github("kdkorthauer/scDD", build_vignettes = TRUE)
+devtools::install_github("kdkorthauer/scDD", build_vignettes = TRUE,
+                          ref="devel")
 ```
 
 For examples and tips on using the package, please see the vignette PDF, 
