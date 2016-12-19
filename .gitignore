@@ -1,4 +1,5 @@
 *.Rproj*
+.Rproj*
 *buildignore
 vignettes/*.R
 vignettes/*.toc
@@ -9,3 +10,4 @@ vignettes/*.pdf
 vignettes/figure/*
 .Rhistory
 .Rapp.history
+.Rproj.user
