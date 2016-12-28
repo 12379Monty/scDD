@@ -14,7 +14,7 @@ Until it appears in Bioconductor, you can install this version through GitHub:
 install.packages("devtools")
 
 devtools::install_github("kdkorthauer/scDD", build_vignettes = TRUE,
-                          ref="devel")
+                          ref="develop")
 ```
 
 For examples and tips on using the package, please see the vignette PDF, 
